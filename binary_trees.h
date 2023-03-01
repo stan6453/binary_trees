@@ -59,10 +59,10 @@ int find_node(const binary_tree_t *root, const binary_tree_t *node);
 void binary_tree_levelorder(const binary_tree_t *tree, void (*func)(int));
 int binary_tree_is_bst(const binary_tree_t *tree);
 int tree_is_bst(const binary_tree_t *tree, int value, int pos);
-
-
-
-
+bst_t *bst_insert(bst_t **tree, int value);
+bst_t *bst_insert(bst_t **tree, int value);
+bst_t *bst_search(const bst_t *tree, int value);
+int binary_tree_is_perfect(const binary_tree_t *tree);
 
 
 
