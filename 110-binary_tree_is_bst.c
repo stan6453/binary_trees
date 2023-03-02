@@ -24,7 +24,7 @@ int binary_tree_is_bst(const binary_tree_t *tree)
  * @tree: tree to check
  * @value: value to compare to tree value
  * @pos: pos of 0 means tree value has to be less than value.
- *  pos of 1 means tree value has to be greater tan value
+ *  pos of 1 means tree value has to be greater than value
  * Return: 1 if condition holds, 0 if not.
  */
 int tree_is_bst(const binary_tree_t *tree, int value, int pos)
